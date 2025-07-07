@@ -29,3 +29,6 @@ jobs:
       with:
         name: jacoco-report
         path: target/site/jacoco
+include:
+- template: Security/Dependency-Scanning.ci.yml
+- template: Security/Secret-Detection.ci.yml
