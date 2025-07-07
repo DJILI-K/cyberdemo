@@ -26,3 +26,10 @@
 
 ```bash
 mvn test
+
+mvn verify
+
+target/site/jacoco/index.html
+
+
+---
