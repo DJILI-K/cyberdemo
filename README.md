@@ -6,7 +6,7 @@
 
 ---
 
-## 🚀 Technologies utilisées
+##  Technologies utilisées
 
 - Java 21 / 22 / 24
 - Spring Boot
@@ -17,12 +17,18 @@
 
 ---
 
-## 📁 Structure du projet
-
+##  Structure du projet
+cyberdemo/
+├── src/
+│ ├── main/java/... # Code source de l'application
+│ └── test/java/... # Tests unitaires
+├── .github/workflows/ci.yml # Fichier d'intégration continue
+├── pom.xml # Configuration Maven
+└── README.md # Ce fichier
 
 ---
 
-## ✅ Lancer les tests
+##  Lancer les tests
 
 ```bash
 mvn test
