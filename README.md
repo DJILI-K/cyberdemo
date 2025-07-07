@@ -19,3 +19,10 @@
 
 ## 📁 Structure du projet
 
+
+---
+
+## ✅ Lancer les tests
+
+```bash
+mvn test
